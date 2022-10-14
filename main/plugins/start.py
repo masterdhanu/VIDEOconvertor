@@ -1,3 +1,5 @@
+
+
 #  This file is part of the VIDEOconvertor distribution.
 #  Copyright (c) 2021 vasusen-code ; All rights reserved. 
 #
@@ -37,7 +39,17 @@ async def menu(event):
     
 @Drone.on(events.callbackquery.CallbackQuery(data="info"))
 async def info(event):
-    await event.edit(f'**ℹ️NFO:**\n\n{info_text}',
+    await event.edit(f'**ℹ️NFO:**\n\n{ℹ️NFO:
+
+This bot is developed by @master_dhanuu
+
+📱 Written in python library TELETHON.
+
+〽️ Bot by : 𝙿𝚘𝚠𝚎𝚛e𝚍 𝙱𝚢 @AnimeClubNetwork
+
+🌻 Support : @AnimeClubNetworkBotChats
+
+🔗 V1.4}',
                     buttons=[[
                          Button.inline("Menu.", data="menu")]])
     
